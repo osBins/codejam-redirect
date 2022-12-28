@@ -1,12 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Gill Sans", sans-serif;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            font-size: large;
+            padding: 5vh 0;
+            background-color: #c698ff20;
+            border-radius: 12px;
+            box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.189);
+            width: 50%;
+            margin: -10vh auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(91, 155, 224);
+        }
+
+        a:hover {
+            color: rgb(68, 109, 154);
+        }
+        #light{
+			position: relative;
+			top: 150px;
+		}
+		#lineh1{
+			position: absolute;
+			left: 0;
+			height: 10px;
+			background: #5500AA;
+			animation: lineH 4s 5s infinite linear;
+		}
+		#lineh2{
+			position: absolute;
+			left: 0;
+			top: 40px;
+			height: 10px;
+			background: #AA2B00;
+			animation: lineH 5s 0.5s infinite linear;
+		}
+		#lineh3{
+			position: absolute;
+			left: 0;
+			top: 70px;
+			height: 10px;
+			background: #00D4FF;
+			animation: lineH 5s 2s infinite linear;
+		}
+		#lineh4{
+			position: absolute;
+			right: 0;
+			top: 100px;
+			height: 10px;
+			background: #00AA2B;
+			animation: lineH 5s 1s infinite linear;
+		}
+		#lineh5{
+			position: absolute;
+			left: 0;
+			top: 130px;
+			height: 10px;
+			background: #AA8000;
+			animation: lineH 5s 4s infinite linear;
+		}
+		#lineh6{
+			position: absolute;
+			right: 0;
+			top: 160px;
+			height: 10px;
+			background: #AAFF00;
+			animation: lineH 4s 1s infinite linear;
+		}
+		#lineh7{
+			position: absolute;
+			right: 0;
+			top: 190px;
+			height: 10px;
+			background: #D50055;
+			animation: lineH 4s 0s infinite linear;
+		}
+		#lineh8{
+			position: absolute;
+			left: 0;
+			top: 220px;
+			height: 10px;
+			background: #00FFFF;
+			animation: lineH 4s 1.5s infinite linear;
+		}
+		#lineh9{
+			position: absolute;
+			left: 0;
+			top: 250px;
+			height: 10px;
+			background: #2B002B;
+			animation: lineH 5s 2s infinite linear;
+		}
+		#lineh10{
+			position: absolute;
+			right: 0;
+			top: 280px;
+			height: 10px;
+			background: #005580;
+			animation: lineH 4s 3s infinite linear;
+		}
+		#lineh11{
+			position: absolute;
+			right: 0;
+			top: 310px;
+			height: 10px;
+			background: #FF557F;
+			animation: lineH 4s 1s infinite linear;
+		}
+		#lineh12{
+			position: absolute;
+			right: 0;
+			top: 340px;
+			height: 10px;
+			background: #85B085;
+			animation: lineH 6s 1s infinite linear;
+		}
+		@keyframes lineH{
+			0%{
+				width: 0%;
+			}
+			100%{
+        width: 95%;opacity: 0;
+      }
+    }
+    </style>
 </head>
+
 <body>
+    <div id="light">
+		<div id="lineh1"></div>
+		<div id="lineh2"></div>
+            <div class="wrapper">
+                <div class="container">
+                    <div class="line1">
+                        <p>
+                            If you are not redirected in five seconds
+                    </div>
+                    <div class="line2"><a href="https://github.com/OSDC/codejam-v3">click here</a></p>
+                    </div>
+                </div>
+            </div>
+		<div id="lineh3"></div>
+		<div id="lineh4"></div>
+		<div id="lineh5"></div>
+		<div id="lineh6"></div>
+		<div id="lineh7"></div>
+		<div id="lineh8"></div>
+		<div id="lineh9"></div>
+		<div id="lineh10"></div>
+		<div id="lineh11"></div>
+		<div id="lineh12"></div>
+	</div>
     <script src="index.js"></script>
 </body>
+
 </html>
